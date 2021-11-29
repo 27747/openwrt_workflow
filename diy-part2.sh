@@ -17,7 +17,7 @@ rm -rf package/lean/luci-theme-argon
 ##添加新的主题
 
 git clone https://github.com/sypopo/luci-theme-atmaterial.git package/lean/luci-theme-atmaterial
-取消bootstrap为默认主题
+#取消bootstrap为默认主题
 
 sed -i '/set luci.main.mediaurlbase=\/luci-static\/bootstrap/d' feeds/luci/themes/luci-theme-bootstrap/root/etc/uci-defaults/30_luci-theme-bootstrap
 #删除默认密码
